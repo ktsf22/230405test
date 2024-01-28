@@ -30,16 +30,54 @@
     </head>
     <body>
         <p>Hello World</p>
-	    <iframe src="https://pi.testkt2023.net/l/966283/2022-05-23/2bqrc" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
-	    <script type='text/javascript'>
+	    <!--  ----------------------------------------------------------------------  -->
+<!--  次の <META> 要素を、HTML の <HEAD>タグ間に追加してください。必要に応じて、charset                  -->
+<!--  パラメータを変更して、HTML ページの文字コードを指定してください。                                     -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  次の <FORM> 要素をページに追加してください。                                              -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://pi.testkt2023.net/l/966283/2023-01-20/4hdrk" method="POST">
+
+<input type=hidden name="oid" value="00D5h000004dWlT">
+<input type=hidden name="retURL" value="https://www.salesforce.com/jp/">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  注意: これらの項目は、省略可能なデバッグ用要素です。デバッグモードでテストを行う場合は、これらの行をコメント解除してください。        -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="maki.kato@salesforce.com">                                       -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="first_name">名</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+<label for="last_name">姓</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+<label for="email">メール</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<input  id="text2" maxlength="40" name="text2" size="20" type="text" /><br>
+
+<input  id="text1" maxlength="40" name="text1" size="20" type="hidden" value="テストです230129" /><br>
+
+<input  id="checkbox" maxlength="40" name="checkbox" size="20" type="hidden" value="true" /><br>
+
+<input type="submit" name="submit">
+
+</form>
+
+<script type="text/javascript">
 piAId = '967283';
-piCId = '86885';
-piHostname = 'go.testkt2023.net';
+piCId = '133828';
+piHostname = 'pi.pardot.com';
 
 (function() {
 	function async_load(){
 		var s = document.createElement('script'); s.type = 'text/javascript';
-		s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
 		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
 	}
 	if(window.attachEvent) { window.attachEvent('onload', async_load); }
