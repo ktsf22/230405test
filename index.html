@@ -76,6 +76,7 @@
 
 </form>
 
+	    <!--
 <p>▼go.test2kt2024.xyz</p>
 <iframe src="https://go.test2kt2024.xyz/l/966283/2022-05-23/2bqrc" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
 <p>▼go.testkt2024.net</p>
@@ -90,6 +91,23 @@ piHostname = 'pi.pardot.com';
 	function async_load(){
 		var s = document.createElement('script'); s.type = 'text/javascript';
 		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+	    -->
+	    
+<script type='text/javascript'>
+piAId = '967283';
+piCId = '';
+piHostname = 'go.testkt2024.net';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
 		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
 	}
 	if(window.attachEvent) { window.attachEvent('onload', async_load); }
